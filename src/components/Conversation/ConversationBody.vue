@@ -1,11 +1,10 @@
 <template>
-  <p>{{ conversation }}</p>
+  <div class="overflow-auto h-100"></div>
 </template>
 
 <script>
 export default {
-  name: "Conversation",
-  props: ["conversation"]
+  name: "CBody"
 };
 </script>
 
