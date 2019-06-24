@@ -1,5 +1,5 @@
 <template>
-  <div class="w-16 h-screen bg-white">
+  <div class="w-16 h-screen bg-white border-r">
     <div class="flex flex-col items-center">
       <div class="pb-6 pt-4">
         <logo/>
