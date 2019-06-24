@@ -2,20 +2,18 @@
 <body class="bg-gray-200">
   <div class="flex flex-row">
     <Nav/>
-    <Conversations/>
+    <router-view/>
   </div>
 </body>
 </template>
 
 <script>
 import Nav from "@/components/SidebarNav/Nav";
-import Conversations from "@/components/Conversations/Conversations";
 
 export default {
   name: "app",
   components: {
-    Nav,
-    Conversations
+    Nav
   }
 };
 </script>

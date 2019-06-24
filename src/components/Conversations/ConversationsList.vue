@@ -17,7 +17,7 @@ import Search from "@/components/Conversations/Search";
 import ConversationCard from "@/components/Conversations/ConversationCard";
 
 export default {
-  name: "Conversations",
+  name: "ConversationsList",
   components: {
     Search,
     ConversationCard
