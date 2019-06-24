@@ -6,6 +6,7 @@ import Logo from '@/components/Statics/Logo';
 
 Vue.component('FeatherIcon', FeatherIcon);
 Vue.component('Logo', Logo);
+Vue.use(require('vue-moment'));
 
 Vue.config.productionTip = false;
 
