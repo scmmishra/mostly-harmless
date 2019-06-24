@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 border-b bg-white hover:bg-gray-200">
+  <div class="p-4 border-b bg-white hover:bg-gray-200 cursor-pointer">
     <div class="flex">
       <div class="w-1/5">
         <img
