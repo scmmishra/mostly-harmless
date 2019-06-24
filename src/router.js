@@ -14,7 +14,8 @@ const router = new Router({
     {
       path: '/message/:id',
       name: 'message',
-      component: Messages
+      component: Messages,
+      props: true
     }
   ]
 });
