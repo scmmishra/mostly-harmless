@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import Search from "@/components/Conversations/Search";
-import ConversationCard from "@/components/Conversations/ConversationCard";
+import Search from "@/components/ConversationsList/Search";
+import ConversationCard from "@/components/ConversationsList/ConversationCard";
 
 export default {
   name: "ConversationsList",

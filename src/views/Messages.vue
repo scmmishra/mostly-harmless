@@ -1,13 +1,13 @@
 <template>
-  <div class="w-full">
+  <div class="w-full flex flex-row">
     <ConversationsList/>
     <Conversation :conversation="id"/>
   </div>
 </template>
 
 <script>
-import ConversationsList from "@/components/Conversations/ConversationsList";
-import Conversation from "@/components/Conversations/Conversation";
+import ConversationsList from "@/components/ConversationsList/ConversationsList";
+import Conversation from "@/components/Conversation/Conversation";
 
 export default {
   name: "Messages",
